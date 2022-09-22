@@ -1,10 +1,9 @@
-/* Import Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
   display: flex;
@@ -14,10 +13,7 @@ body{
   background: purple;
   justify-content: center;
 }
-/* ::selection{
-  color: #fff;
-  background: #3498DB;
-} */
+
 .wrapper{
   height: 265px;
   max-width: 410px;
@@ -110,9 +106,14 @@ header p{
   header p{
     color: #696969;
   }
-  .form :where(input, button){
+  .form input{
     height: 52px;
   }
+
+  .form  button{
+    height: 52px;
+  }
+
   .qr-code img{
     width: 160px;
   }  
